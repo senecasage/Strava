@@ -6,8 +6,8 @@
 // Follow the steps and obtain your client_id and client_secret.
 //
 
-client_id = Text.FromBinary(Extension.Contents("client_id"));
-client_secret = Text.FromBinary(Extension.Contents("client_secret"));
+client_id = "35794";//Text.FromBinary(Extension.Contents("client_id"));
+client_secret = "be2987f5426208876439d54cf3a4ae7d58323181";//Text.FromBinary(Extension.Contents("client_secret"));
 redirect_uri = "https://oauth.powerbi.com/views/oauthredirect.html";
 
 // strava base URL
